@@ -1,0 +1,120 @@
+/* Padrões de Cores */
+
+body {	
+	--1st-color: black;
+	--2nd-color: grey;
+	--3rd-color: silver;
+}
+
+/* Caderno */
+
+.cronica {
+	--1st-color: #8b0000;
+	--2nd-color: #c57f7f;
+	--3rd-color: #f3e5e5;
+}
+
+.poema {
+	--1st-color: #002e49;
+	--2nd-color: #4c6c7f;
+	--3rd-color: #ccd5da;
+}
+
+.memoria {
+	--1st-color: #d36e1b;
+	--2nd-color: #e0995f;
+	--3rd-color: #f6e2d1;
+}
+
+.opiniao {
+	--1st-color: #1f3e38;
+	--2nd-color: #627773;
+	--3rd-color: #d2d8d7;
+}
+
+.caderno .bar {
+	background-color: black;	
+}
+
+.caderno h2 {
+	color: grey;
+}
+
+/* Oficina */
+
+.oficina .dark-back {
+	background-color: black;
+}
+
+.oficina .light-back {
+	background-color: grey;
+}
+
+.oficina i,
+.oficina h1,
+.menu-oficina i .
+.oficina section h1 {
+	color: grey;
+}
+
+.oficina section h2,
+.menu-oficina p {
+	color: black;
+}
+
+/* Etapas */
+
+.etapa .breadcrumb {
+	background-color: silver;
+}
+
+.etapa .breadcrumb li {
+	background-color: grey;
+}
+
+.etapa .breadcrumb li:first-child {
+	background-color: black;
+}
+
+.etapa .content .menu.vertical a {
+	background-color: grey;
+}
+
+.etapa section h1 {
+	color: black;
+}
+
+.texto .breadcrumb .flex-child-grow {
+	color: black;
+	background-color: silver;
+}
+
+/* Pages */
+
+.page-single .bar-dark {
+	background-color: black;
+}
+
+.page-single .bar-light {
+	background-color: grey;
+}
+
+.page-single .content h2, .page-loop .content h2 {
+	color: black;
+}
+
+.page-single .content h3, .page-single .content h4, .page-loop .content h3, .page-loop .content h4 {
+	color: grey;
+}
+
+/* Content */
+
+section .box {
+	background-color: var( --3rd-color );
+}
+
+/* Home */
+
+#home a {	
+	background-color: var( --1st-color );
+}
